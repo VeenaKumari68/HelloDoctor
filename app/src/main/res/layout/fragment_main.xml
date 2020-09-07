@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/logo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/logo" />
+
+                <TextView
+                    android:id="@+id/desp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/desp_border"
+                    android:text="Hello Doctor ! is here to serve you the best of the facilities to ensure your physical health. We beleive in treating everyone in our diverse community, including patients, their families and colleagues, with dignity. Our excellence is to deliver the best outcomes and highest quality service through the dedicated effort of every team member."
+                    android:textColor="@color/Black"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/imge1" />
+
+                <TextView
+                    android:id="@+id/text1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="35dp"
+                    android:background="@drawable/text_border"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:text="Do as much as possible for the patient, and as little as possible to the patient.
+                                                – DR BERNARD LOWN "
+                    android:textColor="#027EB6" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    app:srcCompat="@drawable/imge2" />
+
+                <TextView
+                    android:id="@+id/text2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="35dp"
+                    android:textColor="#027EB6"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:background="@drawable/text_border"
+                    android:text="Physicians and patients need to work together to pursue care that improves health, avoids harms and eliminates wasteful practices.
+                                    – DR. AMIR QASEEM " />
+        </LinearLayout>
+
+
+</ScrollView>
